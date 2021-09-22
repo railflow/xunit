@@ -1,14 +1,16 @@
 ﻿
 
+using RailflowXunitLogger.Model;
+
 namespace RailflowXunitLogger.Attributes
 {
     public class SmartAssignmentAttribute : ClassAttribute
     {
-        public override string Value { get; }
+        public override AttributeData AttributeData { get; }
 
         public SmartAssignmentAttribute(string value)
         {
-            Value = value;
+            AttributeData = new ClassAttributeData("SmartAssignment", value);
         }
     }
 }

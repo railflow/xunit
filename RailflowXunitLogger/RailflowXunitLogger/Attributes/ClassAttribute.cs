@@ -3,7 +3,7 @@
     using System;
 
     [AttributeUsage(AttributeTargets.Class)]
-    public abstract class ClassAttribute : RailFlowAttribue
+    public abstract class ClassAttribute : RailFlowAttribute
     {
 
     }
