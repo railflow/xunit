@@ -1,0 +1,55 @@
+{
+  "UnitTests": [
+    {
+      "FullName": "TestSubstract",
+      "ClassFullName": "RailflowXunitLogger.Tests2.SecondClassTest",
+      "AssemblyFullName": "RailflowXunitLogger.Tests2.SecondClassTest, RailflowXunitLogger.Tests2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "ClassAttributes": [
+        {
+          "Name": "SmartAssignment",
+          "Value": "Second Assignment"
+        }
+      ],
+      "MethodAttributes": [
+        {
+          "Name": "JiraId",
+          "Value": "2290"
+        }
+      ]
+    },
+    {
+      "FullName": "TestAdd",
+      "ClassFullName": "RailflowXunitLogger.Tests2.SecondClassTest",
+      "AssemblyFullName": "RailflowXunitLogger.Tests2.SecondClassTest, RailflowXunitLogger.Tests2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "ClassAttributes": [
+        {
+          "Name": "SmartAssignment",
+          "Value": "Second Assignment"
+        }
+      ],
+      "MethodAttributes": [
+        {
+          "Name": "JiraId",
+          "Value": "4354"
+        }
+      ]
+    },
+    {
+      "FullName": "TestDivide_FailingTest",
+      "ClassFullName": "RailflowXunitLogger.Tests2.SecondClassTest",
+      "AssemblyFullName": "RailflowXunitLogger.Tests2.SecondClassTest, RailflowXunitLogger.Tests2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "ClassAttributes": [
+        {
+          "Name": "SmartAssignment",
+          "Value": "Second Assignment"
+        }
+      ],
+      "MethodAttributes": [
+        {
+          "Name": "JiraId",
+          "Value": "4357"
+        }
+      ]
+    }
+  ]
+}
