@@ -36,7 +36,12 @@ namespace RailflowXunitLogger.Persistence
             string assemblyName,
             AttributeData attribute)
         {
-            bool testExists = railflowTests.UnitTests.Where(test => test.FullName.Equals(testName)).Any();
+            bool testExists = railflowTests.UnitTests.Where(test => {
+                return test.FullName.Equals(testName)
+                        && test.ClassFullName.Equals(className)
+                        && test.AssemblyFullName.Equals(assemblyName);
+            }).Any();
+
             if (testExists)
             {
                 if (attribute is MethodAttributeData methodAttributeData)
